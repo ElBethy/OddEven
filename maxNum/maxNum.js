@@ -7,5 +7,4 @@ myArray.forEach((element) => {
   }
 });
 
-
-console.log(`The largest number in the array: ${temp}`);
+alert(`The largest number in the array: ${temp}`);
