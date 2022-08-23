@@ -7,9 +7,9 @@ for (let i = 0; i <= num; i++ ) {
             document.body.appendChild(newH1);
       }
       if (i % 2 != 0) {
-            // const newH1 = document.createElement("h1");
-            // newH1.innerHTML = `${i} is an odd number`;
-            // document.body.appendChild(newH1);
+            const newH1 = document.createElement("h1");
+            newH1.innerHTML = `${i} is an odd number`;
+            document.body.appendChild(newH1);
       }
       
 }
